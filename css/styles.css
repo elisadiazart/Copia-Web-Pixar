@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url(../assets/fonts/Futura\ Book\ font.ttf);
+}
+
+@font-face {
+    font-family: 'Futura PT Bold';
+    src: url(../assets/fonts/Futura\ Heavy\ font.ttf);
+}
+
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Futura PT', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.title-link {
+    width: 130px;
+    margin-left: 60px;
+}
+
+.menu {
+    display: flex;
+    width: 800px;
+    color: black;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-right: 140px;
+}
+
+.menu-a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.banner {
+    background-color: slategray;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 9rem;
+    position: relative;
+
+}
+
+.movie-tittle {
+    position: absolute;
+    width: 42%;
+    max-width: 700px;
+    left: 11rem;
+    top: 13.5rem;
+}
+
+.banner-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right top;
+}
+
+.photo-menu-container {
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-menu-photo {
+    width: 90%;
+    margin: auto;
+}
+
+.photo-menu-item {
+    text-align: center;
+}
+
+.tittle-menu {
+    font-size: 13px;
+    font-family: 'Futura PT Bold', sans-serif;
+    padding: 20px;
+    margin-bottom: 100px;
+    letter-spacing: 4px;
+
+}
+
+.footer {
+    display: inline-block;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+.copyright {
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+footer {
+    width: 55rem;
+    margin: auto;
+    text-align: center;
+}
+
+/*hasta aquí pagina index */
+
+.feature-films-tittle {
+    letter-spacing: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    font-family: 'futura pt bold';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.films-feature {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+
+}
+
+.movie-feature {
+    width: 200px;
+    display: block;
+}
+
+.movie-poster-feature {
+    max-width: 100%;
+}
+
+.movie-tittle-feature {
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+
+}
+
+.banner-photo-film {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.division {
+    height: 1px;
+    width: 150px;
+    background-color: lightgray;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+p {
+    margin-left: 260px;
+    margin-right: 260px;
+    font-size: 18px;
+    color: rgba(49, 49, 49, 0.7);
+    line-height: 37px;
+    margin-bottom: 40px;
+}
+
+.banner-text{
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.trailers{
+    margin: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.trailer{
+    margin-bottom: 30px;
+}
+
+.trailer-3{
+    margin-bottom: 250px;
+}
+
+.lightyear{
+    margin-bottom: 160px;
+}
+
+.image-film{
+    width: 600px;
+    position: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 260px;
+    margin-right: 260px;
+    margin-bottom: 120px;
+}
+
+.tittle-text-film{
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.big-division{
+    width: 760px;
+}
